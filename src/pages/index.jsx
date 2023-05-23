@@ -40,7 +40,7 @@ function ArticlesIndex({ articles }) {
   return (
     <>
       <Head>
-        <title>Articles - William Pepple</title>
+        <title>Top Leetcode Questions</title>
         <meta
           name="description"
           content="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
@@ -67,7 +67,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Linux Shortcut commands
+          Top Leetcode Questions
         </title>
         <meta
           name="description"
@@ -77,10 +77,10 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Linux shortcut commands
+            Top Leetcode Questions
           </h1>
           <p className="mt-6 mb-16 text-base text-zinc-600 dark:text-zinc-400">
-           Linux shortcut commands for Debian, Ubuntu, CentOS and other distros.
+           Solutions and explanations for Top selected Leetcode Algorithm Questions
           </p>
         </div>
         <div className="flex flex-col gap-16">
