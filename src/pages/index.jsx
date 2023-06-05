@@ -101,7 +101,7 @@ export async function getStaticProps() {
   return {
     props: {
       articles: (await getAllArticles())
-        .slice(0, 4)
+        .slice(0, 100)
         .map(({ component, ...meta }) => meta),
     },
   }
