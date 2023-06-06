@@ -31,6 +31,9 @@ export default function Home({ articles, stacks }) {
            Solutions and explanations for Top selected Leetcode Algorithm Questions
           </p>
         </div>
+        <p className="mt-6 mb-16 text-base text-zinc-600 dark:text-zinc-400">
+           Click for more Questions  {"  "} <span><Link href={'/articles'} className='text-green-500'>Click</Link></span> 
+          </p>
         <div className="flex flex-col gap-16">
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
